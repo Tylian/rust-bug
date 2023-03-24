@@ -9,7 +9,5 @@ fn main() {
 }
 
 fn print_system(query: Query<&Words>) {
-    for words in &query {
-        println!("{}", words);
-    }
+    // hello, world!
 }
